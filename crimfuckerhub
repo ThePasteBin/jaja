@@ -1,0 +1,244 @@
+local _84234fsdfdfe34 = Instance.new("ScreenGui")
+local fryourfrfrgay = Instance.new("Frame")
+local titl = Instance.new("TextLabel")
+local frem = Instance.new("Frame")
+local hiddenflingo = Instance.new("TextButton")
+local goodmode = Instance.new("TextButton")
+local silentaim = Instance.new("TextButton")
+local outlineo = Instance.new("Frame")
+local desc2 = Instance.new("TextLabel")
+local KeyBind = Instance.new("TextButton")
+local keybindgui = Instance.new("Frame")
+local titleofkey = Instance.new("TextLabel")
+local keyhere = Instance.new("TextBox")
+
+--Functions:
+
+function godmode()
+while wait(20) do
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/Criminality-Semi-Godmode.lua"))() 
+print("yesso")
+end    
+end
+
+--Properties:
+
+_84234fsdfdfe34.Name = "84234fsdfd£fe34$$"
+_84234fsdfdfe34.Parent = game.CoreGui
+_84234fsdfdfe34.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+fryourfrfrgay.Name = "fryourfrfrgay"
+fryourfrfrgay.Parent = _84234fsdfdfe34
+fryourfrfrgay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fryourfrfrgay.BackgroundTransparency = 1.000
+fryourfrfrgay.BorderSizePixel = 0
+fryourfrfrgay.Position = UDim2.new(0.238455713, 0, 0.209189847, 0)
+fryourfrfrgay.Size = UDim2.new(0, 422, 0, 50)
+fryourfrfrgay.ZIndex = 10
+
+titl.Name = "titl"
+titl.Parent = fryourfrfrgay
+titl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+titl.BackgroundTransparency = 1.000
+titl.Position = UDim2.new(0, 0, 0.0199999809, 0)
+titl.Size = UDim2.new(0, 189, 0, 50)
+titl.ZIndex = 2
+titl.Font = Enum.Font.SourceSansSemibold
+titl.Text = "fat neek hub"
+titl.TextColor3 = Color3.fromRGB(255, 255, 255)
+titl.TextSize = 38.000
+
+frem.Name = "frem"
+frem.Parent = fryourfrfrgay
+frem.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+frem.BorderColor3 = Color3.fromRGB(130, 203, 255)
+frem.Position = UDim2.new(0.00221538544, 0, 0.0199999809, 0)
+frem.Size = UDim2.new(0, 422, 0, 338)
+
+hiddenflingo.Name = "hiddenflingo"
+hiddenflingo.Parent = frem
+hiddenflingo.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+hiddenflingo.BorderColor3 = Color3.fromRGB(130, 203, 255)
+hiddenflingo.Position = UDim2.new(0.021327015, 0, 0.25739646, 0)
+hiddenflingo.Size = UDim2.new(0, 403, 0, 62)
+hiddenflingo.Font = Enum.Font.SourceSansBold
+hiddenflingo.Text = "goofy ass hidden fling gui"
+hiddenflingo.TextColor3 = Color3.fromRGB(255, 255, 255)
+hiddenflingo.TextSize = 24.000
+hiddenflingo.MouseButton1Down:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThePasteBin/yessssssnoob/main/crimfling", true))()
+end)
+
+goodmode.Name = "goodmode"
+goodmode.Parent = frem
+goodmode.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+goodmode.BorderColor3 = Color3.fromRGB(130, 203, 255)
+goodmode.Position = UDim2.new(0.021327015, 0, 0.508875728, 0)
+goodmode.Size = UDim2.new(0, 403, 0, 62)
+goodmode.Font = Enum.Font.SourceSansBold
+goodmode.Text = "stupid ass god mode"
+goodmode.TextColor3 = Color3.fromRGB(255, 255, 255)
+goodmode.TextSize = 24.000
+goodmode.MouseButton1Down:Connect(function()
+    godmode()
+end)
+
+silentaim.Name = "silentaim"
+silentaim.Parent = frem
+silentaim.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+silentaim.BorderColor3 = Color3.fromRGB(130, 203, 255)
+silentaim.Position = UDim2.new(0.021327015, 0, 0.760354996, 0)
+silentaim.Size = UDim2.new(0, 403, 0, 62)
+silentaim.Font = Enum.Font.SourceSansBold
+silentaim.Text = "dumbass silent aim"
+silentaim.TextColor3 = Color3.fromRGB(255, 255, 255)
+silentaim.TextSize = 24.000
+silentaim.MouseButton1Down:Connect(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Averiias/Universal-SilentAim/main/main.lua"))()
+end)
+outlineo.Name = "outlineo"
+outlineo.Parent = fryourfrfrgay
+outlineo.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+outlineo.BorderColor3 = Color3.fromRGB(130, 203, 255)
+outlineo.Position = UDim2.new(0.00221548928, 0, 0.0199999996, 0)
+outlineo.Size = UDim2.new(0, 422, 0, 50)
+
+desc2.Name = "desc2"
+desc2.Parent = fryourfrfrgay
+desc2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+desc2.BackgroundTransparency = 1.000
+desc2.Position = UDim2.new(0.277251154, 0, 0.980960846, 0)
+desc2.Size = UDim2.new(0, 189, 0, 50)
+desc2.ZIndex = 2
+desc2.Font = Enum.Font.SourceSans
+desc2.Text = "you're a fucker, here are the scripts"
+desc2.TextColor3 = Color3.fromRGB(255, 255, 255)
+desc2.TextSize = 18.000
+
+KeyBind.Name = "KeyBind"
+KeyBind.Parent = fryourfrfrgay
+KeyBind.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+KeyBind.BorderColor3 = Color3.fromRGB(130, 203, 255)
+KeyBind.Position = UDim2.new(0.774881542, 0, 0.0199999996, 0)
+KeyBind.Size = UDim2.new(0, 85, 0, 50)
+KeyBind.ZIndex = 10
+KeyBind.Font = Enum.Font.SourceSans
+KeyBind.Text = "keybind"
+KeyBind.TextColor3 = Color3.fromRGB(255, 255, 255)
+KeyBind.TextSize = 14.000
+KeyBind.MouseButton1Down:Connect(function()
+	if keybindgui.Visible == false then
+		keybindgui.Visible = true
+	else
+		keybindgui.Visible = false
+	end
+end)
+
+keybindgui.Name = "keybindgui"
+keybindgui.Parent = fryourfrfrgay
+keybindgui.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+keybindgui.BorderColor3 = Color3.fromRGB(130, 203, 255)
+keybindgui.Position = UDim2.new(1.01895738, 0, 0.0199999996, 0)
+keybindgui.Size = UDim2.new(0, 178, 0, 50)
+keybindgui.Visible = false
+
+titleofkey.Name = "titleofkey"
+titleofkey.Parent = keybindgui
+titleofkey.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+titleofkey.BorderColor3 = Color3.fromRGB(130, 203, 255)
+titleofkey.Size = UDim2.new(0, 178, 0, 20)
+titleofkey.ZIndex = 5
+titleofkey.Font = Enum.Font.SourceSans
+titleofkey.Text = "choose keybind"
+titleofkey.TextColor3 = Color3.fromRGB(255, 255, 255)
+titleofkey.TextSize = 14.000
+
+keyhere.Name = "keyhere"
+keyhere.Parent = keybindgui
+keyhere.BackgroundColor3 = Color3.fromRGB(33, 33, 33)
+keyhere.BorderSizePixel = 0
+keyhere.Position = UDim2.new(0, 0, 0.400000006, 0)
+keyhere.Size = UDim2.new(0, 178, 0, 30)
+keyhere.Font = Enum.Font.SourceSans
+keyhere.PlaceholderText = "key here dumbass"
+keyhere.Text = ""
+keyhere.TextColor3 = Color3.fromRGB(255, 255, 255)
+keyhere.TextSize = 14.000
+
+-- Scripts:
+
+local function EPJTP_fake_script() -- fryourfrfrgay.dregme 
+	local script = Instance.new('LocalScript', fryourfrfrgay)
+
+	local UserInputService = game:GetService("UserInputService")
+	local runService = (game:GetService("RunService"));
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	function Lerp(a, b, m)
+		return a + (b - a) * m
+	end;
+	
+	local lastMousePos
+	local lastGoalPos
+	local DRAG_SPEED = (8);
+	function Update(dt)
+		if not (startPos) then return end;
+		if not (dragging) and (lastGoalPos) then
+			gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, lastGoalPos.X.Offset, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, lastGoalPos.Y.Offset, dt * DRAG_SPEED))
+			return 
+		end;
+	
+		local delta = (lastMousePos - UserInputService:GetMouseLocation())
+		local xGoal = (startPos.X.Offset - delta.X);
+		local yGoal = (startPos.Y.Offset - delta.Y);
+		lastGoalPos = UDim2.new(startPos.X.Scale, xGoal, startPos.Y.Scale, yGoal)
+		gui.Position = UDim2.new(startPos.X.Scale, Lerp(gui.Position.X.Offset, xGoal, dt * DRAG_SPEED), startPos.Y.Scale, Lerp(gui.Position.Y.Offset, yGoal, dt * DRAG_SPEED))
+	end;
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+			lastMousePos = UserInputService:GetMouseLocation()
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	runService.Heartbeat:Connect(Update)
+end
+coroutine.wrap(EPJTP_fake_script)()
+local function KIGTEIV_fake_script() -- keyhere.LocalScript 
+	local script = Instance.new('LocalScript', keyhere)
+
+	local Plr = game.Players.LocalPlayer
+	local key = script.Parent
+	
+	Plr:GetMouse().KeyDown:Connect(function(K)
+		if K == key.Text then
+			if script.Parent.Parent.Parent.Visible == false then
+				script.Parent.Parent.Parent.Visible = true
+			else
+				script.Parent.Parent.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(KIGTEIV_fake_script)()
